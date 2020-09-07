@@ -2,48 +2,50 @@
 
 tooltip css style. Just my learning purposes.
 
+View Demo - https://tooltip-css.netlify.app
+
 ### Normal tooltip section
 
 **Position Top**
 ``` html
-<div class="tooltip top"> my text </div>
+<div class="tooltip top">text</div>
 ```
 
 **Position Bottom**
 ``` html
-<div class="tooltip bottom"> my text </div>
+<div class="tooltip bottom">text</div>
 ```
 
 **Position Left**
 ``` html
-<div class="tooltip left"> my text </div>
+<div class="tooltip left">text</div>
 ```
 
 **Position Right**
 ``` html
-<div class="tooltip right"> my text </div>
+<div class="tooltip right">text</div>
 ```
 
 ### Normal tooltip section with animation
 
 **Position Top**
 ``` html
-<div class="tooltip animation top"> my text </div>
+<div class="tooltip animation top">text</div>
 ```
 
 **Position Bottom**
 ``` html
-<div class="tooltip animation bottom"> my text </div>
+<div class="tooltip animation bottom">text</div>
 ```
 
 **Position Left**
 ``` html
-<div class="tooltip animation left"> my text </div>
+<div class="tooltip animation left">text</div>
 ```
 
 **Position Right**
 ``` html
-<div class="tooltip animation right"> my text </div>
+<div class="tooltip animation right">text</div>
 ```
 
 ### Customize tooltip section.
