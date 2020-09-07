@@ -4,6 +4,11 @@ tooltip css style. Just my learning purposes.
 
 View Demo - https://tooltip-css.netlify.app
 
+Inject tooltip css file in your code,
+```html
+<link rel="stylesheet" type="text/css" href="/tooltip.css" />
+```
+
 ### Normal tooltip section
 
 **Position Top**
