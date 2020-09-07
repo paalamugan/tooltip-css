@@ -3,30 +3,63 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tooltip</title>
+  <title>Tooltip Css Style</title>
   <link rel="stylesheet" type="text/css" href="/tooltip.css" />
   <style>
     .tooltip-main {
-      margin: 0 20px;
+      display: inline-block;
+    }
+
+    .container {
+      width: 50%;
+      margin: auto;
+    }
+    button {
+      cursor: pointer;
+    }
+    .btn:not(:last-child), .tooltip-main:not(:last-child) {
+      margin-right: 60px;
     }
   </style>
 </head>
 <body>
-  <div class="tooltip-main">
-    <div class="tooltip.top">top</div>
-    <h1>Hover tooltip position top</h1>
-  </div>
-  <div class="tooltip-main">
-    <div class="tooltip.bottom">bottom</div>
-    <h1>Hover tooltip position bottom</h1>
-  </div>
-  <div class="tooltip-main">
-    <div class="tooltip.left">left</div>
-    <h1>Hover tooltip position left</h1>
-  </div>
-  <div class="tooltip-main">
-    <div class="tooltip.right">right</div>
-    <h1>Hover tooltip position right</h1>
+  <div class="container">
+    <br>
+    <br>
+    <br>
+    <h1>Normal tooltip section</h1>
+    <button class="btn tooltip top" data-tooltip="Top">Hover Top</button>
+    <button class="btn tooltip bottom" data-tooltip="Bottom">Hover Bottom</button>
+    <button class="btn tooltip left" data-tooltip="Left">Hover Left</button>
+    <button class="btn tooltip right" data-tooltip="Right">Hover Right</button>
+    <br>
+    <br>
+    <br>
+    <h1>Normal tooltip section with animation</h1>
+    <button class="btn tooltip animation top" data-tooltip="Top">Hover Top</button>
+    <button class="btn tooltip animation bottom" data-tooltip="Bottom">Hover Bottom</button>
+    <button class="btn tooltip animation left" data-tooltip="Left">Hover Left</button>
+    <button class="btn tooltip animation right" data-tooltip="Right">Hover Right</button>
+    <br>
+    <br>
+    <br>
+    <h1>Customize tooltip section</h1>
+    <div class="tooltip-main">
+      <div class="custom-tooltip top">Top</div>
+      <button class="btn">Hover Top</button>
+    </div>
+    <div class="tooltip-main">
+      <div class="custom-tooltip bottom">Bottom</div>
+      <button class="btn">Hover Bottom</button>
+    </div>
+    <div class="tooltip-main">
+      <div class="custom-tooltip left">Left</div>
+      <button class="btn">Hover Left</button>
+    </div>
+    <div class="tooltip-main">
+      <div class="custom-tooltip right">Right</div>
+      <button class="btn">Hover Right</button>
+    </div>
   </div>
 </body>
 </html>
