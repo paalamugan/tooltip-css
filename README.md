@@ -1,6 +1,6 @@
 ## tooltip-css
 
-- tooltip css style. Just my learning purposes.
+tooltip css style. Just my learning purposes.
 
 ### Normal tooltip section
 
