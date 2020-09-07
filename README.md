@@ -1,41 +1,87 @@
 ## tooltip-css
 
-Custom tooltip css style.
+- tooltip css style. Just my learning purposes.
 
-Main purpose of this tooltip created to avoid ::after and ::before selector.
+### Normal tooltip section
 
-**Tooltip Position Top**
+**Position Top**
+``` html
+<div class="tooltip top"> my text </div>
+```
+
+**Position Bottom**
+``` html
+<div class="tooltip bottom"> my text </div>
+```
+
+**Position Left**
+``` html
+<div class="tooltip left"> my text </div>
+```
+
+**Position Right**
+``` html
+<div class="tooltip right"> my text </div>
+```
+
+### Normal tooltip section with animation
+
+**Position Top**
+``` html
+<div class="tooltip animation top"> my text </div>
+```
+
+**Position Bottom**
+``` html
+<div class="tooltip animation bottom"> my text </div>
+```
+
+**Position Left**
+``` html
+<div class="tooltip animation left"> my text </div>
+```
+
+**Position Right**
+``` html
+<div class="tooltip animation right"> my text </div>
+```
+
+### Customize tooltip section.
+
+Main purpose of this tooltip created to avoid ::after and ::before selector
+
+**Position Top**
 
 ``` html
 <div class="tooltip-main">
-  <div class="tooltip.top"> {{ tooltip-text }} </div>
-  <div>some text</div>
+  <div class="custom-tooltip top"> {{ tooltip-text }} </div>
+  <div>your text</div>
 </div>
 ```
 
-**Tooltip Position Bottom**
+**Position Bottom**
 
 ``` html
 <div class="tooltip-main">
-  <div class="tooltip.bottom"> {{ tooltip-text }} </div>
-  <div>some text</div>
+  <div class="custom-tooltip bottom"> {{ tooltip-text }} </div>
+  <div>your text</div>
 </div>
 ```
 
-**Tooltip Position Right**
+**Position Right**
 
 ``` html
 <div class="tooltip-main">
-  <div class="tooltip.right"> {{ tooltip-text }} </div>
-  <div>some text</div>
+  <div class="custom-tooltip right"> {{ tooltip-text }} </div>
+  <div>your text</div>
 </div>
 ```
 
-**Tooltip Position Left**
+**Position Left**
 
 ``` html
 <div class="tooltip-main">
-  <div class="tooltip.left"> {{ tooltip-text }} </div>
-  <div>some text</div>
+  <div class="custom-tooltip left"> {{ tooltip-text }} </div>
+  <div>your text</div>
 </div>
 ```
